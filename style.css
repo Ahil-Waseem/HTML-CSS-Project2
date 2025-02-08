@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0D1B48;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.circle {
+    background-color: crimson;
+    /* height: 100px; */
+    /* width: 100px; */
+    border-radius: 100%;
+    position: absolute;
+}
+
+.circle1 {
+    /* background-image: radial-gradient(circle, red, yellow, red); */
+    height: 120px;
+    width: 120px;
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+    border-radius: 50%;
+    top: -59px;
+    left: -60px;
+
+}
+
+.circle2 {
+    height: 250px;
+    width: 250px;
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+    border-radius: 50%;
+    bottom: 344px;
+    left: 367px;
+}
+
+.circle3 {
+    height: 180px;
+    width: 180px;
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+    border-radius: 50%;
+    bottom: -90px;
+    left: -90px;
+}
+
+.card-container {
+
+    position: relative;
+}
+
+.card-content {
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    border-radius: 10px;
+}
+
+.card {
+    height: 550px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.349);
+    backdrop-filter: blur(10px);
+    padding: 18px;
+    /* z-index: 1; */
+}
+
+.card-image {
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.tag-heart-container {
+    display: flex;
+    justify-content: space-between;
+    /* padding-inline: 15px; */
+    margin-top: 22px;
+}
+
+.card-text {
+    padding: 10px 18px;
+
+}
+
+.tag {
+    color: rgb(0, 17, 255);
+    border-radius: 5px;
+    padding: 3px 8px;
+    font-family: montserrat;
+    font-weight: 700;
+    background: rgba(240, 236, 46, 0.548);
+}
+
+.card-title {
+    color: white;
+    font-size: 18px;
+    margin-top: 22px;
+
+    /* padding-inline: 15px; */
+
+    /* padding: 3px 8px; */
+
+}
+
+.card-subtitle {
+    color: white;
+    margin-top: 22px;
+
+}
+.star-rating{
+    color: yellow;
+    margin-top: 22px;
+
+}
+.rating-numbers{
+    color: white;
+}
+.card-btn{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding-block: 20px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 20px;
+    
+}
